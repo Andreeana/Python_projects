@@ -1,0 +1,26 @@
+# Hopefully in time I can add other functions to the programm. 
+butterflies = 10
+beetles = 12
+ladybugs = 20
+
+total = butterflies + beetles + ladybugs
+
+print('I caught ' + str(butterflies) + ' 🦋 butterflies!')
+print('I caught ' + str(beetles) + ' 🪲 beetles!')
+print('I caught ' + str(ladybugs) + ' 🐞 ladybugs!')
+
+print('I caught ' + str(total) + ' total bugs!')
+
+# Improved version maybe?
+
+butterflies = 10
+beetles = 12
+ladybugs = 20
+
+total = butterflies + beetles + ladybugs
+
+print(f"I caught {butterflies} 🦋 butterflies!")
+print(f"I caught {beetles} 🪲 beetles!")
+print(f"I caught {ladybugs} 🐞 ladybugs!")
+print(f"I caught {total} total bugs!")
+
